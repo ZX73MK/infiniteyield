@@ -421,7 +421,7 @@ StayOpen.Position = UDim2.new(0, 5, 0, 30)
 StayOpen.Size = UDim2.new(1, -10, 0, 20)
 StayOpen.Font = Enum.Font.SourceSans
 StayOpen.TextSize = 14
-StayOpen.Text = "Keep Menu Open"
+StayOpen.Text = "أبقِ القائمة مفتوحة "
 StayOpen.TextColor3 = Color3.new(1, 1, 1)
 StayOpen.TextXAlignment = Enum.TextXAlignment.Left
 StayOpen.ZIndex = 10
@@ -453,19 +453,19 @@ On.ZIndex = 10
 Positions = makeSettingsButton("Edit/Goto Waypoints","rbxassetid://5147488592")
 Positions.Position = UDim2.new(0, 5, 0, 145)
 Positions.Size = UDim2.new(1, -10, 0, 25)
-Positions.Name = "Waypoints"
+Positions.Name = "نقاط الطريق "
 Positions.Parent = SettingsHolder
 
 EventBind = makeSettingsButton("Edit Event Binds","rbxassetid://5147695474",759)
 EventBind.Position = UDim2.new(0, 5, 0, 205)
 EventBind.Size = UDim2.new(1, -10, 0, 25)
-EventBind.Name = "EventBinds"
+EventBind.Name = "ايفنت بايندز  "
 EventBind.Parent = SettingsHolder
 
 Plugins = makeSettingsButton("Manage Plugins","rbxassetid://5147695474",743)
 Plugins.Position = UDim2.new(0, 5, 0, 175)
 Plugins.Size = UDim2.new(1, -10, 0, 25)
-Plugins.Name = "Plugins"
+Plugins.Name = "الإضافات "
 Plugins.Parent = SettingsHolder
 
 Example.Name = "Example"
@@ -476,7 +476,7 @@ Example.Size = UDim2.new(0, 190, 0, 20)
 Example.Visible = false
 Example.Font = Enum.Font.SourceSans
 Example.TextSize = 18
-Example.Text = "Example"
+Example.Text = "مثال "
 Example.TextColor3 = Color3.new(1, 1, 1)
 Example.TextXAlignment = Enum.TextXAlignment.Left
 Example.ZIndex = 10
@@ -617,7 +617,7 @@ Credits.Position = UDim2.new(0, 0, 0.9, 30)
 Credits.Size = UDim2.new(0, 250, 0, 20)
 Credits.Font = Enum.Font.SourceSansLight
 Credits.FontSize = Enum.FontSize.Size18
-Credits.Text = "Edge // Zwolf // Moon // Toon"
+Credits.Text = "ياسر f5 // Moone3v "
 Credits.TextColor3 = Color3.new(1, 1, 1)
 Credits.ZIndex = 10
 
@@ -639,7 +639,7 @@ Close.Position = UDim2.new(0, 205, 0, 150)
 Close.Size = UDim2.new(0, 40, 0, 20)
 Close.Font = Enum.Font.SourceSans
 Close.TextSize = 14
-Close.Text = "Close"
+Close.Text = "قفل"
 Close.TextColor3 = Color3.new(1, 1, 1)
 Close.ZIndex = 10
 table.insert(shade2,Close)
@@ -653,7 +653,7 @@ Add.Position = UDim2.new(0, 5, 0, 150)
 Add.Size = UDim2.new(0, 40, 0, 20)
 Add.Font = Enum.Font.SourceSans
 Add.TextSize = 14
-Add.Text = "Add"
+Add.Text = "اضافة"
 Add.TextColor3 = Color3.new(1, 1, 1)
 Add.ZIndex = 10
 table.insert(shade2,Add)
@@ -667,7 +667,7 @@ Delete.Position = UDim2.new(0, 50, 0, 150)
 Delete.Size = UDim2.new(0, 40, 0, 20)
 Delete.Font = Enum.Font.SourceSans
 Delete.TextSize = 14
-Delete.Text = "Clear"
+Delete.Text = "مسح"
 Delete.TextColor3 = Color3.new(1, 1, 1)
 Delete.ZIndex = 10
 table.insert(shade2,Delete)

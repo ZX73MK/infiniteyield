@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-	-- error("Infinite Yield is already running!", 0)
+	-- error("سكربت  متطور ادمن قيد التشغيل بالفعل! ", 0)
 	return
 end
 
@@ -9,7 +9,7 @@ COREGUI = game:GetService("CoreGui")
 if not game:IsLoaded() then
 	local notLoaded = Instance.new("Message")
 	notLoaded.Parent = COREGUI
-	notLoaded.Text = 'Infinite Yield is waiting for the game to load'
+	notLoaded.Text = 'سكربت متطور ادمن لس يشتغل !'
 	game.Loaded:Wait()
 	notLoaded:Destroy()
 end
@@ -206,7 +206,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Infinite Yield FE v" .. currentVersion
+Title.Text = "v سكربت متطور ادمن ناس تشوفه" .. currentVersion
 
 do
 	local emoji = ({
@@ -1251,7 +1251,7 @@ Holder_5.Parent = PluginsFrame
 Holder_5.BackgroundTransparency = 1
 Holder_5.BorderSizePixel = 0
 Holder_5.Position = UDim2.new(0, 0, 0, 0)
-Holder_5.Selectable = false
+Holder5.Selectable = false
 Holder_5.Size = UDim2.new(0, 250, 0, 145)
 Holder_5.ScrollBarImageColor3 = Color3.fromRGB(78,78,79)
 Holder_5.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
